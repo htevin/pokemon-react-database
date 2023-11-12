@@ -1,0 +1,28 @@
+.pokemonGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.pokemon{
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.pokemon:hover {
+    padding-left: 4px;
+}
